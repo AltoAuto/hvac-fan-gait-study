@@ -119,6 +119,7 @@ Even **two or three discrete speed modes** achieve most of the savings of contin
 │   └─ .gitkeep
 ├─ data/
 │   └─ example_demand.csv
+├─ HVAC Fan Gait Study Report.pdf
 └─ src/
     └─ hvac_fan_gaits/
         ├─ __init__.py
