@@ -123,12 +123,13 @@ Even **two or three discrete speed modes** achieve most of the savings of contin
     └─ hvac_fan_gaits/
         ├─ __init__.py
         ├─ params.py
+        ├─ demand.py
         ├─ fan.py
         ├─ system.py
         ├─ controller.py
         ├─ simulate.py
         ├─ plots.py
-        ├─ style.py
+        ├─ report_sumary.py
         └─ main.py
 ```
 
