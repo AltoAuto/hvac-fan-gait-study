@@ -169,7 +169,7 @@ pyyaml==6.0.1
 
 ---
 
-## 🧪 Example Output (Summary)
+## Example Output (Summary)
 
 ```
 === FAIRNESS METRICS ===
@@ -180,7 +180,7 @@ pyyaml==6.0.1
 
 ---
 
-## 📁 Outputs (figures)
+## Outputs (figures)
 
 All plots are automatically generated and saved as `.png` and `.svg` under:
 
