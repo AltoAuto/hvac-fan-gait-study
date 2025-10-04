@@ -134,7 +134,7 @@ Even **two or three discrete speed modes** achieve most of the savings of contin
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Setup environment
 
