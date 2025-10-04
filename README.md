@@ -206,12 +206,6 @@ outputs/
 
 ---
 
-## Citation / Acknowledgment
-
-> “Aiden Wang. *HVAC Fan Gait Study — Horse gait–inspired fan speed control for energy-efficient HVAC systems.* 2025.”
-
----
-
 ## Future Work
 
 * Integrate real sensor data (pressure, power, airflow).
