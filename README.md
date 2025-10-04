@@ -12,8 +12,8 @@ It matches your codebase exactly and ties together the *horse gait analogy*, sim
 
 ## Overview
 
-This project models and visualizes how **HVAC fans can switch discrete speed “gaits”**—just like horses change between walk, trot, and gallop—to maintain efficiency as system resistance (e.g., filter fouling) changes.
-By operating near the **Best Efficiency Point (BEP)** rather than staying at a fixed speed, even simple mode-switch fans can capture most of the energy savings of a full variable-speed drive.
+This project models and visualizes how HVAC fans can switch discrete speed “gaits” just like horses change between walk, trot, and gallop—to maintain efficiency as system resistance (e.g., filter fouling) changes.
+By operating near the Best Efficiency Point (BEP) rather than staying at a fixed speed, even simple mode-switch fans can capture most of the energy savings of a full variable-speed drive.
 
 ---
 
