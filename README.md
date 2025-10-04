@@ -48,10 +48,15 @@ $\Delta p_{\text{sys}}(Q) = k Q^2$
 where *k* increases as filters foul → higher resistance.
 
 **Operating point:** Intersection of fan curve and system curve.
-**Efficiency metrics:**
 
+**Efficiency metrics:**
 * CFM/W (higher = better)
 * Specific Fan Power (SFP = W/CFM, lower = better)
+
+**Dynamic conditions in this study:**
+
+The airflow demand is generated procedurally to mimic a realistic 1-hour variation in building airflow needs, while system fouling gradually increases resistance (k) over time.
+This setup provides repeatable, controlled test conditions to compare how fixed-speed, mode-switch, and variable-speed fan strategies respond to changing loads.
 
 ---
 
@@ -117,8 +122,6 @@ Even **two or three discrete speed modes** achieve most of the savings of contin
 ├─ requirements.txt
 ├─ outputs/              # generated figures (ignored by git)
 │   └─ .gitkeep
-├─ data/
-│   └─ example_demand.csv
 ├─ HVAC Fan Gait Study Report.pdf
 └─ src/
     └─ hvac_fan_gaits/
