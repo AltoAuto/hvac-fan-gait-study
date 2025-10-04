@@ -103,7 +103,7 @@ Even **two or three discrete speed modes** achieve most of the savings of contin
 | Oxygen per distance            | Watts per airflow                        | Efficiency metric                           
 | Gait switch when speed changes | Fan speed switch when resistance changes | Re-optimizing effort                        
 
-> 🐴 *Just like a horse wastes energy if it gallops too slowly or trots too fast, a fan wastes power when operating far from its BEP.*
+> 🐎 *Just like a horse wastes energy if it gallops too slowly or trots too fast, a fan wastes power when operating far from its BEP.*
 
 ---
 
