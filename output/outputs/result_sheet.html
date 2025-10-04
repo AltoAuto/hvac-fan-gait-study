@@ -1,0 +1,58 @@
+<!doctype html><html><head><meta charset='utf-8'>
+<title>Fan Gait Switching — Result Sheet</title>
+<style>body{font-family:system-ui,Segoe UI,Arial,sans-serif;max-width:900px;margin:32px auto;line-height:1.45}
+h1,h2{margin-top:1.1em} table{border-collapse:collapse} th,td{border:1px solid #ddd;padding:6px 8px}
+img{max-width:100%;height:auto;border:1px solid #eee;padding:4px;border-radius:6px}
+code,pre{background:#f6f8fa;border:1px solid #e1e4e8;padding:8px;border-radius:6px}</style></head><body>
+<h1>Fan Gait Switching — Result Sheet</h1><p><em>Generated: 2025-10-04 10:05</em></p>
+<h2>Executive Summary</h2>
+<ul><li>Mode-switch reduces energy by <b>11%</b> vs fixed.</li>
+<li>Variable reduces energy by <b>22%</b> vs fixed and achieves <b>100%</b> compliance.</li></ul>
+<h2>Key Results (1 hour)</h2><table><thead><tr>
+<th>Strategy</th>
+<th>Energy (Wh)</th>
+<th>SFP (W/CFM)</th>
+<th>Compliance</th>
+<th>Delivered (CFM·h)</th>
+<th>Shortfall (CFM·h)</th>
+<th>Oversupply (CFM·h)</th>
+<th>Savings vs Fixed</th>
+</tr></thead><tbody>
+<tr><td>Fixed</td><td>28.4</td><td>0.085</td><td>6%</td><td>332.4</td><td>3.0</td><td>33.0</td><td>0%</td></tr>
+<tr><td>Mode-switch</td><td>25.4</td><td>0.081</td><td>20%</td><td>314.3</td><td>0.0</td><td>10.2</td><td>11%</td></tr>
+<tr><td>Variable</td><td>22.1</td><td>0.074</td><td>100%</td><td>300.1</td><td>0.0</td><td>0.0</td><td>22%</td></tr>
+</tbody></table>
+<h2>Parameters</h2><pre><code>
+{
+  "fan": {
+    "name": "DemoFan-200mm",
+    "Q_bep_cfm": 300.0,
+    "dP_bep_Pa": 120.0,
+    "P_bep_W": 40.0,
+    "N_ref_rpm": 1200.0
+  },
+  "system": {
+    "k_clean": 6e-05,
+    "k_fouled": 0.0004
+  },
+  "sim": {
+    "dt_s": 1.0,
+    "eps_cfm": 5,
+    "fixed_rpm": 900.0,
+    "horizon_s": 3600.0,
+    "lambda_shortfall": 0.4,
+    "rpm_bounds": [
+      500.0,
+      2000.0
+    ],
+    "show": false,
+    "speeds_rpm": [
+      700.0,
+      800.0,
+      900.0,
+      1000.0
+    ]
+  }
+}
+</code></pre>
+</body></html>
