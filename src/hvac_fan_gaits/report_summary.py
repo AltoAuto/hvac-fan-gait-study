@@ -101,7 +101,7 @@ def build_summary_sheet(outdir, metrics, fan_spec=None, system_spec=None, sim_sp
     md_path = os.path.join(outdir, fname_md)
     with open(md_path, "w", encoding="utf-8") as f: f.write("\n".join(md))
 
-    # ===== Simple HTML mirror =====
+    # ===== HTML =====
     html = []
     html += ["<!doctype html><html><head><meta charset='utf-8'>",
              "<title>Fan Gait Switching — Result Sheet</title>",
@@ -140,3 +140,4 @@ def build_summary_sheet(outdir, metrics, fan_spec=None, system_spec=None, sim_sp
     html_path = os.path.join(outdir, fname_html)
     with open(html_path, "w", encoding="utf-8") as f: f.write("\n".join(html))
     return md_path, html_path
+
