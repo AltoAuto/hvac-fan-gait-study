@@ -1,9 +1,3 @@
-Perfect — here’s a **complete, professional-quality README.md** for your project.
-It’s structured for both technical clarity (professors, recruiters, engineers) **and** presentation polish (looks great on GitHub).
-It matches your codebase exactly and ties together the *horse gait analogy*, simulation results, and deliverables.
-
----
-
 # 🐎 **HVAC Fan Gait Study**
 
 ### *Horse gait–inspired fan speed control for energy-efficient HVAC systems*
