@@ -76,8 +76,8 @@ This setup provides repeatable, controlled test conditions to compare how fixed-
 | **Graph 4**  | Airflow Tracking (Demand vs Delivered) — visualizes control accuracy.
 | **Graph 5a** | Energy vs Strategy — total Wh with compliance % labels. 
 | **Graph 5b** | Shortfall & Oversupply — tolerance-aware CFM·h imbalance.                                      
-| **Graph 6**  | % Energy Savings vs Fixed — headline efficiency improvement chart.                             
-| **Result sheet**  | % Summary finding                               
+| **Graph 6**  | Energy Savings vs Fixed — headline efficiency improvement chart.                             
+| **Result sheet**  | Summary finding                               
 
 ---
 
