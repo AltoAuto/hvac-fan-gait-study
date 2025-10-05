@@ -211,8 +211,10 @@ outputs/
 * Add simple control loop visualization (mode-switch logic).
 * Build low-cost prototype with a PWM PC fan + smart plug + phone anemometer.
 ---
-Note: The data used here are synthetic and meant for demonstration only.
+
+* Note: The data used here are synthetic and meant for demonstration only.
 The trends are physically accurate, but not calibrated to any real fan.
+
 ---
 
 ## Author
