@@ -1,6 +1,6 @@
 # 🐎 **HVAC Fan Gait Study**
 
-### *Horse gait–inspired fan speed control for energy-efficient HVAC systems*
+### *Horse gait inspired fan speed control for energy efficient HVAC systems*
 
 ---
 
