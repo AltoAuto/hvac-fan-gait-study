@@ -29,11 +29,11 @@ By operating near the Best Efficiency Point (BEP) rather than staying at a fixed
 
 ### Fan & System Fundamentals
 
-| Relationship  | Scaling Law | Description                          |
-| ------------- | ----------- | ------------------------------------ |
-| Flow (Q)      | ∝ N         | Airflow rises linearly with speed.   |
-| Pressure (Δp) | ∝ N²        | Static pressure grows quadratically. |
-| Power (P)     | ∝ N³        | Power demand grows cubically.        |
+| Relationship  | Scaling Law | Description                          
+| ------------- | ----------- | ------------------------------------ 
+| Flow (Q)      | ∝ N         | Airflow rises linearly with speed.   
+| Pressure (Δp) | ∝ N²        | Static pressure grows quadratically. 
+| Power (P)     | ∝ N³        | Power demand grows cubically.        
 
 **System curve:**
 
