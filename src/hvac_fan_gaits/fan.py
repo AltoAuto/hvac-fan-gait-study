@@ -52,7 +52,7 @@ class FanCurve:
         dP = dP_shut * np.maximum(1.0 - x ** self.n_shape, 0.0)
         return dP
 
-    # (Optional) power model if/when needed later
+    
     def P_at(self, Q_cfm, N_rpm: float, P_bep_ref_W: float, Q_bep_ref_cfm: float):
         """
         Rough electrical power vs flow at a given speed, scaled by affinity.
@@ -65,3 +65,4 @@ class FanCurve:
         alpha = (Q_bep_ref_cfm / max(self.Q_free_ref_cfm, 1e-9)) ** 3
         base = (Q / max(self.free_delivery_cfm(N_rpm), 1e-9)) ** 3
         return scale_P * (P_bep_ref_W / max(alpha, 1e-9)) * base
+
